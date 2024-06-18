@@ -1,0 +1,124 @@
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.catamaran-<uniquifier> {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+body{
+  font-family: "Catamaran", sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+
+h1{
+	font-size: 100px;
+}
+
+p{
+	font-size: 13px;
+}
+
+header{
+	background-color: #fff;
+}
+
+#hero-slides{
+	color: #fff;
+}
+
+#hero-slides p{
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+
+#intro{
+	text-align: center;
+}
+
+#intro p{
+	color: #777;
+}
+
+
+#services{
+	text-align: center;
+}
+
+#services p{
+	color: #777;
+}
+
+
+
+#cta{
+	text-align: center;
+	background-image: url("../img/home-grid-banner.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 80px 0;
+	text-align: center;
+	color: #fff;
+}
+
+#cta h1{
+	font-size: 80px;
+}
+
+#cta p{
+	color: #fff;
+	font-size: 20px;
+	
+}
+
+#clientes{
+	text-align: center
+}
+
+
+
+	
+.btn-contact{
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #FFFFFF;
+	padding: 10px 40px;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 20px;
+}
+	
+.btn-contact:hover{
+	background-color: yellow;
+	border-color: yellow;
+	color: green;
+}
+	
+	
+	
+	
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
